@@ -30,7 +30,9 @@ namespace MRSkipsAPI.Controllers
 {
     public class APIController : System.Web.Http.ApiController
     {
-
+        /*
+         Backend api for driver mobila app
+             */
         private ApplicationDbContext db = new ApplicationDbContext();
         private const string DRIVER = "DRIVER";
         private ILog log = LogManager.GetLogger("mylog");
